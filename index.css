@@ -864,6 +864,8 @@ hr{
     }
     .category-list {
         margin-top: 24px;
+        align-items: center;
+        justify-content: center;
     }
     .content p {
         font-size: 1rem;
