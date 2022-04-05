@@ -929,6 +929,9 @@ hr{
         width: 100%;
         max-width: 1046px;
     }
+    .footer-link {
+        gap: 2.2rem;
+    }
     .icon2 img {
         width: 100%;
     }
