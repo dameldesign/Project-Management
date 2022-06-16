@@ -65,6 +65,11 @@ nav{
     border: 2px solid #fff;
     background: #d17914;
 }
+button:hover{
+    border: 2px solid #fff;
+    background: #d17914;
+
+}
 .content{
     position:absolute;
     left: 50%;
@@ -944,6 +949,17 @@ hr{
 }
 
 @media only screen and (max-width: 360px) {
+
+    h2{
+        font-size: 70%;
+    }
+
+    h1{
+        font-size: 70%;
+    }
+
+
+
     .container-contact-row {
         justify-content: center;
         flex-wrap: wrap;
@@ -967,7 +983,7 @@ hr{
     .content form button{
         background: #ff3d00;
         color: #fff;
-        padding: 5px 20px;
+        padding: 5px 12px;
         margin-right: 20rem;
         border: none;
         right: 0;
@@ -975,6 +991,13 @@ hr{
         flex: 1;
         justify-content: flex-start;
     }
+    .feedback-left{
+        margin-left: 0rem;
+        flex-basis: 0%;
+
+    }
+    
+
 }
 
 
